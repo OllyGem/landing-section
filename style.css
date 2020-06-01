@@ -1,0 +1,71 @@
+body{
+    margin: 5em auto;
+    font-family: Montserrat;
+    width: 1200px;
+}
+ul{
+    list-style: none;
+}
+
+.main-title h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.main-title p{
+    text-align: center;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.content{
+    display: table;
+    margin: 3em auto;
+}
+
+.content>div{
+    display: table-row;
+}
+
+.content img, 
+.content ul{
+    display: table-cell;
+}
+
+.content li{
+    padding: 1em;
+}
+
+.content .left{
+    width: 30%;
+    text-align: right;
+    padding: 1em;
+    vertical-align: middle;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.content .left h3{
+    font-size: 1.4em;
+    color: #000;
+}
+
+.content img{
+    height: 100%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.content .right{
+    width: 30%;
+    padding: 1em;
+    vertical-align: middle;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.content .right h3{
+    font-size: 1.4em;
+    color: #000;
+}
+
